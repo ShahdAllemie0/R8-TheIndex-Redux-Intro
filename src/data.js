@@ -8,33 +8,33 @@ const authors = [
     books: [
       {
         title: "Harry Potter and the Philosopher's Stone",
-        color: "red"
+        color: "red",
       },
       {
         title: "Harry Potter and the Chamber of Secrets",
-        color: "blue"
+        color: "blue",
       },
       {
         title: "Harry Potter and the Prizoner of Azkaban",
-        color: "purple"
+        color: "purple",
       },
       {
         title: "Harry Potter and the Goblet of Fire",
-        color: "red"
+        color: "red",
       },
       {
         title: "Harry Potter and the Order of the Phoenix",
-        color: "yellow"
+        color: "yellow",
       },
       {
         title: "Harry Potter and the Half-Blood Prince",
-        color: "blue"
+        color: "blue",
       },
       {
         title: "Harry Potter and the Deathly Hallows",
-        color: "black"
-      }
-    ]
+        color: "black",
+      },
+    ],
   },
   {
     id: 2,
@@ -45,25 +45,25 @@ const authors = [
     books: [
       {
         title: "A Game of Thrones",
-        color: "blue"
+        color: "blue",
       },
       {
         title: "A Clash of Kings",
-        color: "yellow"
+        color: "yellow",
       },
       {
         title: "A Storm of Swords",
-        color: "green"
+        color: "green",
       },
       {
         title: "A Feast for Crows",
-        color: "red"
+        color: "red",
       },
       {
         title: "A Dance With Dragons",
-        color: "white"
-      }
-    ]
+        color: "white",
+      },
+    ],
   },
   {
     id: 3,
@@ -74,25 +74,25 @@ const authors = [
     books: [
       {
         title: "The Hobbit",
-        color: "black"
+        color: "black",
       },
       {
         title: "The Fellowship of the Ring",
-        color: "green"
+        color: "green",
       },
       {
         title: "The Two Towers",
-        color: "red"
+        color: "red",
       },
       {
         title: "The Return of the King",
-        color: "blue"
+        color: "blue",
       },
       {
         title: "The Silmarillion",
-        color: "black"
-      }
-    ]
+        color: "black",
+      },
+    ],
   },
   {
     id: 4,
@@ -103,22 +103,22 @@ const authors = [
     books: [
       {
         title: "Palace Walk",
-        color: "red"
+        color: "red",
       },
       {
         title: "Sugar Street",
-        color: "blue"
+        color: "blue",
       },
       {
         title: "Miramar",
-        color: "grey"
+        color: "grey",
       },
       {
         title: "Respected Sir",
-        color: "blue"
-      }
-    ]
-  }
+        color: "blue",
+      },
+    ],
+  },
 ];
 
 export default authors;

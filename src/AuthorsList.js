@@ -2,9 +2,10 @@ import React from "react";
 
 // Components
 import AuthorCard from "./AuthorCard";
+import { connect } from "react-redux";
 
-const AuthorsList = props => {
-  const authorCards = props.authors.map(author => (
+const AuthorsList = (props) => {
+  const authorCards = props.authorss.map((author) => (
     <AuthorCard key={author.first_name + author.last_name} author={author} />
   ));
 
@@ -15,5 +16,9 @@ const AuthorsList = props => {
     </div>
   );
 };
-
-export default AuthorsList;
+const mapStateToProps = (state) => {
+  return {
+    authorss: state.authors,
+  };
+};
+export default connect(mapStateToProps)(AuthorsList);
